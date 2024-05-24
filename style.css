@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/money-transfer-global-currency_115579-1115.jpg?size=626&ext=jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: rgba(119, 45, 123, 0.704);
+    margin: 150px 500px;
+    padding: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+#heading{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.input{
+    padding: 10px;
+}
+#tag{
+ margin-bottom: 10px;
+ font-size: 20px;
+}
+#amt{
+    padding: 10px;
+    font-size:20px;
+    width: 100%;
+    border:none;
+    outline: none;
+    border-radius: 9px;
+}
+.conversion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.from,.to{
+    padding: 10px;
+}
+
+.from p,.to p{
+    font-size:20px;
+}
+.select_container{
+    display: flex;
+    gap:4px;
+}
+.select_container select{
+    height: 40px;
+    width: 60px;
+    border: none;
+    font-size: larger;
+}
+
+
+.result{
+    text-align: center;
+    font-size: 28px;
+}
+
+.btn{
+    text-align: center;
+    padding: 15px;
+    
+}
+#button{
+    padding: 10px;
+    border:none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: rgb(118, 15, 112);
+    border-radius: 10px;
+}
+
+#button:hover{
+    cursor:pointer;
+    background-color: rgb(23, 1, 22);
+}

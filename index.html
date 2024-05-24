@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+            <h1>Currency Calculater</h1>
+        </div>
+        <div class="input">
+            <p id="tag">Enter Amount</p>
+            <input type="text" placeholder="Enter amount" id="amt">
+        </div>
+        <div class="conversion">
+            <div class="from">
+                <p>From</p>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/US/flat/64.png" height="50px" width="50px">
+                    <select name="from"></select>
+                </div>
+            </div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25677.png" height="20px" width="20px">
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/IN/flat/64.png" height="50px" width="50px">
+                    <select name="to"></select>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <p id="res"> 1 USD = 80 INR</p>
+        </div>
+        <div class="btn">
+            <button id="button">Get conversion</button>
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
